@@ -16,7 +16,7 @@ input{width:100%;padding:10px 12px;border:1px solid var(--bd);border-radius:8px;
 #nm{text-transform:uppercase}#nm::placeholder{text-transform:none}
 .ig{display:flex;align-items:stretch;border:1px solid var(--bd);border-radius:8px;background:var(--bg);margin-bottom:14px;overflow:hidden}.ig input{border:0;margin:0;border-radius:0;flex:1;min-width:0;width:auto}.ig span{display:flex;align-items:center;padding:0 10px 0 2px;color:var(--mut);font-size:13px;white-space:nowrap}.ig:focus-within{outline:2px solid var(--ac);outline-offset:1px}.ig input:focus{outline:0}
 input:focus{outline:2px solid var(--ac);outline-offset:1px}
-.pv{background:#fff;border-radius:8px;padding:16px;overflow-x:auto;border:1px solid var(--bd)}
+.pv{background:#fff;border-radius:8px;padding:16px 0;overflow-x:auto;border:1px solid var(--bd);width:fit-content;max-width:100%}
 .b{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
 button{font:inherit;font-weight:600;padding:10px 16px;border-radius:8px;border:1px solid var(--ac);background:var(--ac);color:var(--acx);cursor:pointer}
 button.s{background:transparent;color:var(--tx);border-color:var(--bd)}
@@ -59,12 +59,12 @@ function sig(){
  tel=p.replace(/[^+\d]/g,'');
  const T='<table cellpadding="0" cellspacing="0" border="0" role="presentation" ';
  return '<br>'+T+'width="600" style="border-collapse:collapse;width:600px;min-width:600px;-webkit-text-size-adjust:none;'+F+'"><tr><td style="padding:0 0 16px 0;">'+T+'width="600" style="border-collapse:collapse;width:600px;"><tr>'
- +'<td width="50" style="width:50px;font-size:0;line-height:0;">&nbsp;</td><td width="249" valign="top" style="width:249px;padding:0;">'+T+'style="border-collapse:collapse;">'
+ +'<td width="50" style="width:50px;font-size:0;line-height:0;">&nbsp;</td><td width="248" valign="top" style="width:248px;padding:0;">'+T+'style="border-collapse:collapse;">'
  +'<tr><td style="padding:7px 0 0 0;'+F+'font-size:18px;line-height:22px;font-weight:bold;color:#231f20;white-space:nowrap;"><span style="'+F+'font-size:18px;font-weight:bold;color:#231f20;">'+n+'</span></td></tr>'
  +'<tr><td style="'+F+'font-size:13px;line-height:19px;color:#999999;"><span style="'+F+'font-size:13px;color:#999999;">'+t+'</span></td></tr>'
  +'<tr><td style="padding-top:25px;">'+T+'><tr>'+soc('facebook','Facebook','https://www.facebook.com/people/Design-Concepts/100063642964892/')+soc('instagram','Instagram','https://www.instagram.com/designconceptsuae/')+soc('linkedin','LinkedIn','https://www.linkedin.com/company/dnb-design-concepts-interiors-llc/',1)+'</tr></table></td></tr></table></td>'
  +'<td width="2" valign="top" style="width:2px;padding:0;"><img src="'+IMG.divider+'" width="2" height="96" alt="" style="display:block;border:0;width:2px;height:96px;"></td>'
- +'<td width="281" valign="top" style="width:281px;padding:4px 0 0 18px;">'+T+'style="border-collapse:collapse;">'
+ +'<td width="300" valign="top" style="width:300px;padding:4px 0 0 18px;">'+T+'style="border-collapse:collapse;">'
  +row('phone','Phone','tel:'+tel,p)+row('email','Email','mailto:'+e,e)+row('web','Website','https://designconceptsglobal.com','designconceptsglobal.com')+row('location','Location','','Dubai, UAE')
  +'</table></td></tr></table></td></tr><tr><td><a href="https://designconceptsglobal.com" target="_blank" style="text-decoration:none;"><img src="'+IMG.banner+'" width="600" height="102" alt="Design Concepts - Bringing Vision to Life" style="display:block;border:0;width:600px;height:102px;"></a></td></tr></table>';
 }
